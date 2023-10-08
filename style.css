@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+body{
+    background-color: #9873fe;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-color: white;
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+    position: absolute;
+    z-index: 2;
+    border-radius: 14px;
+}
+.card .app-details{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.app-details img{
+    width:100px ;
+}
+.card .app-details .app-title{
+    text-transform: uppercase;
+    font-size: 1.6em;
+    margin: 15px 0;
+}
+.card label{
+    display: block;
+    font-weight: 600;
+}
+.card input#amount{
+    width: 100%;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    border-bottom: 2px solid #02002c;
+    color: #7a789d;
+}
+.card input#amount:focus{
+    color: #9873fe;
+    border-color: #9873fe;
+}
+.card .drop-down{
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    justify-content:space-between;
+    align-items: center;
+}
+.card .drop-down select{
+    margin-right: 10px;
+    width: 90%;
+    background-color: #9873fe;
+    color: white;
+    padding: 15px;
+    appearance: none;
+    font-size: 18px;
+    border-radius: 6px;
+}
+.card select option{
+    color: white;
+}
+.card .convert-button{
+    background-color: #9873fe;
+    width: 100%;
+    color: white;
+    padding:15px;
+    margin-top:35px;
+    font-size: 18px;
+    border-radius: 6px;
+}
+.card .result{
+    width: 100%;
+    background-color: #e5dbff;
+    text-align: center;
+    padding: 15px;
+    margin: 20px 0;
+    font-size: 18px;
+}
